@@ -1,0 +1,20 @@
+.sedebarstyle {
+    max-height: calc(100vh - 100px);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.sidebarstyle::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.sidebarstyle {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.w-minus-20 {
+    width: calc(100% - 80px);
+}
+.h-minus-20 {
+    min-height: calc(100% - 100px);
+}
